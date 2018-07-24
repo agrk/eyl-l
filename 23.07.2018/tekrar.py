@@ -1,0 +1,1 @@
+print([range(start=0,stop=10, step=2)])
