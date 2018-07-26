@@ -26,11 +26,17 @@
 
 
 
-ogreci_isimleri=sozluk[]
+
+
+
+
+
+
+
+choose=input('yapmak istedihginiz islem nedir 1)ekle\n 2)sil\n 3)ogrencileri goruntule\n 4)cıkıs')
+
 
 while True:
-    choose==0
-print("yapmak istedihginiz islem nedir 1)ekle\n 2)sil\n 3)ogrencileri goruntule\n 4)cıkıs")
 
 if choose==1:
   ogrenci ismi= input('ogrenci ismi:')
@@ -40,14 +46,23 @@ vize_notu = int(input('vize notu:'))
 final_notu = int(input('final notu:'))
 vize_final_notları.update({ ogrenci_ismi: {'vize': vize_notu ,'final': final_notu}})
 
+
+
+ vize.append[sozluk]
 print(vize_final_notları)
+
+break:
 
 else if choose == 2:
    ogrenci_ismi=input('ogrenci ismi')
+ #eğer varsa  if olmalı tekrardan
+  # sillllv
+del ogrenci_isimleri["?"]
 
+print(silme islemi basarili)
 
-
-
+else :
+print(ogrenci bulunamadi)
 
 
 else if choose == 3:

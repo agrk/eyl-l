@@ -151,7 +151,7 @@ while True:
                                                     ogr_notlari.get('vize'),
                                                     ogr_notlari.get('final')))
     elif secim == 's':
-        silinecek_ogr_no = input("Lütfen silinecek ogr no giriniz.")
+        silinecek_ogr_no = input("Lütfen silinecek ogr no giriniz.")gir
         if silinecek_ogr_no in ogrenciler.keys():
             ogrenciler.pop(silinecek_ogr_no)
             print("{} numarali ogrenci silinmistir.".format(

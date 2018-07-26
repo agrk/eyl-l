@@ -1,4 +1,5 @@
 print("hava cok guzel",sep='\t\t')
+sansur={'hava: "H*va'}
 cumle="hava cok guzel"
 for karakter in cumle:
     if karakter ==" ":
