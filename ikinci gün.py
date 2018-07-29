@@ -48,9 +48,6 @@ for İ in range(5):
 vize_notu= int(input('Vize Notu'))
 final_notu = int(input('Final Notu'))
 
-vize_final_notları.update({ ogrenci_ismi: {'vize': vize_notu ,'final': final_notu}})
-
-print(vize_final_notları)
 
 
 
