@@ -19,18 +19,18 @@ def average(self):
 
 class classes(object):
     students=[]
-    def student_add(self):
-try
-         name = input("student name")
-            surname = input("student surname")
-    number=input("student number")
-    vise = int(input("vise "))
-    final = int(input("final "))
-    self.student.append(student(name,surname,number,final=final,vise=vise))
+
+def student_add(self):
+    try:
+        name = input("student name")surname = input("student surname")
+        number=input("student number")
+        vise = int(input("vise "))
+        final = int(input("final "))
+        self.student.append(student(name,surname,number,final=final,vise=vise))
         return True
     except Exception as e:
         print(e)
-return False
+        return False
 
 def show_students(self):
     for student in self.students:
@@ -50,7 +50,7 @@ if __name__=='__main__':
 
     input
 
-    
+
 
     python_1b=classes()
     python_1b.students_add()
